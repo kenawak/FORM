@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <form>
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" for="name" placeholder="Enter First Name"/>
+    </div>
+    <div class="form-group">
+      <label>Last Name</label>
+      <input type="text" for="last-name" placeholder="Enter Last Name"/>
+    </div>
+    <div class="form-group">
+      <label for="birthdate">Birthdate</label>
+      
+      <input type="date" id="birthdate" name="birthdate" required>
+
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <label>
+        <input name="gender" value="male" type="radio" >
+        Male
+      </label>
+      <label>
+        <input name="gender" value="female" type="radio">
+        Female
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="country">Country</label>
+      <select name="country" id="dropdown">
+        <option disabled selected value>Country</option>
+        <option value="ET">Ethiopia</option>
+        <option value="UK">United Kingdom</option>
+        <option value="US">United States</option>
+        <option value="CH">China</option>
+        <option value="UG">Uganda</option>
+        <option value="KN">Kenya</option>
+        <option value="SD">Sudan</option>
+        <option value="DJ">Djibouti</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="Email">
+        Email
+        <input type="email" placeholder="Enter E-mail" required>
+      </label>
+
+    </div>
+    <div class="form-group">
+      <label for="phone">
+        Phone
+        <input type="phone" name="phone" placeholder="Enter Phone">
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="password">
+        Password
+        <input type="password" name="password" >
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">
+        Confirm Password
+        <input type="password" name="password">
+      </label>
+    </div>
+    <div class="form-group">
+      <label for="">
+      <input type="checkbox" id="checkbox">
+      I agree to the terms above
+    </label>
+    </div>
+    <div class="form-submit">
+      <button type="submit">submit</button>
+      <button type="cancel">Cancel</button>
+    </div>
+  </form>
+
+</body>
+</html>
